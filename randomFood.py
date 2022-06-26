@@ -43,8 +43,7 @@ pizzaHut = Restaurant('Pizza Hut', ['Pizza'])
 restList.append(pizzaHut)
 breadPlace = Restaurant('麵包鋪', ['菠蘿包', '雞尾包', '腸仔包', '辣肉鬆包', '吞拿魚三文治'])
 restList.append(breadPlace)
-ironFlowerPlace = Restaurant('鐵花村', ['滷肉飯'])
-restList.append(ironFlowerPlace)
+
 
 def randomFood():
     selectedShop = random.choice(restList)
